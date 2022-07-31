@@ -1,0 +1,40 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DIV_TAG</title>
+    <style>
+        /* приоритет работы с классами выше чем работа с тегами*/
+
+
+        div {
+            background-color: bisque;
+            width: 400px;
+            height: 400px
+        }                                   /* selector tags */
+        .box_1{
+            background-color: azure;        /*selector tags*/
+        }
+        .id-1{
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="box_1">
+    <p class="id-1">HI</p>
+</div>
+<div>
+    <p>
+        Это второй квадрат
+    </p>
+</div>
+</body>
+</html>

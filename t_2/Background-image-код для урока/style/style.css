@@ -1,0 +1,12 @@
+.border {
+    width: 1500px;
+    height: 500px;
+    border: 3px solid black;
+    background-image: url("../img/01-Logo.svg");
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-position: right bottom;*/
+    /*background-size: contain;     !* Размер по контейнеру*!*/
+    background-size: cover;     /* Размер по контейнеру all div*/
+}
+

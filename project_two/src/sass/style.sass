@@ -10,9 +10,28 @@
 //        color: aqua
 @import "normalize.css"
 @import "reset.css"
+
+@font-face
+    font-family: MontserraT
+    src: url("../fonts/Montserrat-Regular.ttf") //Подключение шрифта
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: MontserraT
+    src: url("../fonts/Montserrat-SemiBold.ttf") //Подключение шрифта
+    font-weight: bold
+    font-style: normal
+
+
 $color-blue: #5290EA
 $color-orange: #F28B64
 $color-grey: #cbcbcb
+
+html
+    font-family: "MontserraT"
+    font-weight: normal
+
 
 *
     box-sizing: border-box
@@ -143,6 +162,7 @@ $color-grey: #cbcbcb
     padding-left: 0
     position: relative
     z-index: 1
+    font-weight: bold
 
 
     &__hr
@@ -154,7 +174,7 @@ $color-grey: #cbcbcb
 
 
 .right-wrapper
-    width: 372px
+    width: 390px
     position: absolute
     top: 150px
     left: 692px
@@ -230,6 +250,7 @@ $color-grey: #cbcbcb
 .second-section
     min-height: 700px
     position: relative
+
     &__container
         padding-top: 32px
 
@@ -251,7 +272,6 @@ $color-grey: #cbcbcb
         top: -490px
         right: -90px
         z-index: -1
-
 
 
     &__second-elipse
@@ -289,13 +309,13 @@ $color-grey: #cbcbcb
         position: absolute
         top: 144px
         right: -45px
+        font-weight: bold
 
 .card-item_orange
     background-color: $color-orange
 
 .card-item_blue
     background-color: $color-blue
-
 
 
 .icons-item
@@ -311,8 +331,10 @@ $color-grey: #cbcbcb
 
     &__text
         font-size: 18px
+
         span
             font-size: 48px
+            font-weight: bold
 
 .third-section
     min-height: 640px
@@ -339,13 +361,17 @@ $color-grey: #cbcbcb
     &__right-title
         margin-bottom: 46px
 
+
     &__text
         font-size: 18px
         margin-bottom: 30px
+
+
     &__img-subtract
         position: absolute
         top: 155px
         left: 10px
+
     &__img-subtract-2
         position: absolute
         top: 100px
@@ -357,4 +383,30 @@ $color-grey: #cbcbcb
         top: -120px
         right: -120px
 
+.footer
+    //position: relative
+    &__container
+        display: flex
+        justify-content: space-between
+        flex-direction: row
+        align-items: center
+        padding-top: 39px
+        min-height: 190px
+    // для align-items: center надо указывать
 
+    &__left
+        min-height: 200px
+        position: relative
+
+
+    &__img
+        position: absolute
+        left: -180px
+        bottom: 0
+
+
+    &__right-title
+        margin-bottom: 20px
+
+//&__left-wrapper-footer
+//    margin-left: 0

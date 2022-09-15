@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(normalize.css);
 @import url(reset.css);
 @font-face {
@@ -14,24 +15,24 @@
   font-style: normal;
 }
 
-/* line 31, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 31, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 html {
   font-family: "MontserraT";
   font-weight: normal;
 }
 
-/* line 36, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 36, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 39, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 39, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 43, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 43, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .main-section {
   position: relative;
   min-height: 800px;
@@ -42,65 +43,72 @@ html {
   overflow: hidden;
 }
 
-/* line 54, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 54, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   height: 69px;
   align-items: center;
 }
 
-/* line 61, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 62, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .main-section__content-container {
   display: flex;
   flex-direction: row;
   position: relative;
 }
 
-/* line 66, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 67, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .main-section__first-elipse {
   position: absolute;
   top: -40px;
   right: -50px;
 }
 
-/* line 71, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 72, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .main-section__second-elipse {
   position: absolute;
   right: -120px;
   top: 650px;
 }
 
-/* line 77, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 78, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 81, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 82, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 
-/* line 85, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 87, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0;
 }
 
-/* line 88, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 90, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 94, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 92, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 98, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 98, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 104, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   top: 150px;
@@ -114,7 +122,7 @@ html {
   z-index: 2;
 }
 
-/* line 112, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 118, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   top: 160px;
@@ -128,7 +136,7 @@ html {
   z-index: 3;
 }
 
-/* line 124, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 130, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   top: 190px;
@@ -142,12 +150,12 @@ html {
   z-index: 1;
 }
 
-/* line 136, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 142, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons {
   display: inline-flex;
 }
 
-/* line 142, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 148, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons__item {
   display: flex;
   justify-content: center;
@@ -159,17 +167,17 @@ html {
   margin-right: 17px;
 }
 
-/* line 154, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 160, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons__item:last-child {
   margin-right: 0;
 }
 
-/* line 157, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 163, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons__item i {
   font-size: 21px;
 }
 
-/* line 160, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 166, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .title {
   font-size: 72px;
   padding-left: 0;
@@ -178,7 +186,7 @@ html {
   font-weight: bold;
 }
 
-/* line 168, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 174, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .title__hr {
   width: 65px;
   position: absolute;
@@ -187,7 +195,7 @@ html {
   border-top: 3px solid black;
 }
 
-/* line 176, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 182, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .right-wrapper {
   width: 390px;
   position: absolute;
@@ -195,29 +203,29 @@ html {
   left: 692px;
 }
 
-/* line 182, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 188, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .right-wrapper__title {
   margin-bottom: 25px;
 }
 
-/* line 185, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 191, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .right-wrapper__icons-box {
   margin-bottom: 1px;
   padding-left: 10px;
 }
 
-/* line 189, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 195, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .right-wrapper__text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 193, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 199, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 196, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 202, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -230,23 +238,23 @@ html {
   color: white;
 }
 
-/* line 207, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 213, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 211, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 217, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 214, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 220, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .buttons__icon-btn p {
   font-size: 16px;
 }
 
-/* line 217, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 223, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .elipse {
   display: inline-flex;
   width: 194px;
@@ -259,14 +267,14 @@ html {
   background-transform: rotate(45deg);
 }
 
-/* line 226, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 232, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
   border-radius: 100%;
 }
 
-/* line 235, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 241, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .elipse__subtract {
   width: 129.33px;
   height: 129.33px;
@@ -276,7 +284,7 @@ html {
   z-index: 0;
 }
 
-/* line 243, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 249, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
@@ -285,36 +293,37 @@ html {
   transform: rotate(45deg);
 }
 
-/* line 250, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 256, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section {
   min-height: 700px;
   position: relative;
+  overflow: hidden;
 }
 
-/* line 254, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 261, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
 }
 
-/* line 257, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 264, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 260, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 267, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__card-box {
   margin-bottom: 25px;
   display: inline-flex;
 }
 
-/* line 265, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 272, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__icon-box {
   display: flex;
   justify-content: space-evenly;
   position: relative;
 }
 
-/* line 270, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 277, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: -490px;
@@ -322,7 +331,7 @@ html {
   z-index: -1;
 }
 
-/* line 277, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 284, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: -125px;
@@ -330,7 +339,7 @@ html {
   z-index: -1;
 }
 
-/* line 287, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 294, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item {
   width: 360px;
   height: 360px;
@@ -343,17 +352,17 @@ html {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-/* line 298, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 305, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item:last-child {
   margin-right: 0;
 }
 
-/* line 301, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 308, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item__img {
   height: 335px;
 }
 
-/* line 304, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 311, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item__text {
   width: 280px;
   font-size: 36px;
@@ -365,40 +374,40 @@ html {
   font-weight: bold;
 }
 
-/* line 314, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 321, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item_orange {
   background-color: #F28B64;
 }
 
-/* line 317, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 324, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .card-item_blue {
   background-color: #5290EA;
 }
 
-/* line 321, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 328, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 327, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 334, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 332, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 339, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 335, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 342, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 339, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 346, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section {
   min-height: 640px;
   margin: 0 auto;
@@ -407,7 +416,7 @@ html {
   overflow: hidden;
 }
 
-/* line 346, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 353, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -418,30 +427,30 @@ html {
   position: relative;
 }
 
-/* line 358, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 365, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 361, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 368, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 46px;
 }
 
-/* line 365, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 372, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-/* line 370, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 377, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__img-subtract {
   position: absolute;
   top: 155px;
   left: 10px;
 }
 
-/* line 375, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 382, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__img-subtract-2 {
   position: absolute;
   top: 100px;
@@ -449,14 +458,14 @@ html {
   z-index: 1;
 }
 
-/* line 381, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 388, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   top: -120px;
   right: -120px;
 }
 
-/* line 388, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 395, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -466,22 +475,50 @@ html {
   min-height: 190px;
 }
 
-/* line 397, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 404, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .footer__left {
   min-height: 200px;
   position: relative;
 }
 
-/* line 402, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 409, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -180px;
   bottom: 0;
 }
 
-/* line 408, ../../HTML_stepik/html_lessons/project_two/src/sass/style.sass */
+/* line 415, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
 .footer__right-title {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 424, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 428, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 432, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 436, ../../HML-фокин/html_lessons/project_two/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
